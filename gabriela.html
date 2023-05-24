@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #EAEAEA;
+        }
+
+        header {
+            background-color: #B19CD9;
+            height: 100px;
+            width: 100%;
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        .Título {
+            text-align: center;
+            font-weight: bold;
+            padding-top: 25px;
+            font-size: 50px;
+        }
+
+        .Subtítulo {
+            background-color: #DCD0FF;
+            text-align: center;
+            font-weight: bolder;
+            padding-top: 5px;
+            font-size: 25px;
+        }
+
+        .sección {
+            padding: 0;
+            margin-top: 0;
+            background-color: #C8A2C8;
+            width: 100%;
+            height: 50px;
+        }
+
+        .sección h2 {
+            text-align: left;
+            font-size: 35px;
+            font-weight: bolder;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            max-width: 1100px;
+            margin-left: 150px;
+            margin-top: 5px;
+        }
+
+        .card {
+            width: 100%;
+            margin: 30px;
+            border-radius: 6px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+            cursor: default;
+            transition: all 400ms ease;
+            text-align: center;
+        }
+
+        .card:hover {
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3%);
+        }
+
+        .card p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 8px;
+            text-align: justify;
+            line-height: 1.5;
+            color: #000000;
+        }
+
+        .card h3 {
+            text-align: left;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .card h2 {
+            background-color: #DCD0FF;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .card img {
+            width: 248px;
+            height: 248px;
+            padding: 3.5px;
+            margin-top: 10px;
+            border-radius: 5%;
+        }
+
+        .card a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #000000;
+            border: 1px solid #1188DF;
+            border-radius: 4px;
+            transition: all 400ms ease;
+        }
+
+        .card a:hover {
+            background-color: #1188DF;
+            color: #000000;
+        }
+
+        ul {
+            list-style-type:disc;
+            padding: 0;
+            margin-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="Título">Mi Portafolio Digital</h1>
+    </header>
+    <section class="sección">
+        <h2>Presentación</h2>
+    </section>
+    <section>
+        <div class="container">
+            <div class="card">
+                <figure>
+                    <h2 class="Subtítulo">Datos generales</h2>
+                    <h3>Nombre:</h3>
+                    <p>Gabriela Lineth Albáez Hernández</p>
+                    <h3>Edad</h3>
+                    <p>20 años</p>
+                    <h3>Carrera</h3>
+                    <p>Lic. en Ingeniería de Software (cursando actualmente)</p>
+                    <h3>Breve descripci{on sobre mí</h3>
+                    <p>Soy una persona responsable, siempre trato de entregar mis asignaciones a tiempo, por más mínimas
+                        que sean,
+                        siempre haciendo mi mejor esfuerzo por entregar un trabajo de calidad.
+                    </p>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <h2 class="Subtítulo">Foto</h2>
+                    <img src="imagenes/gaby.jpeg">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section class="sección">
+        <h2>Proyectos realizados</h2>
+    </section>
+    <section>
+        <div class="container">
+            <div class="card">
+                <figure>
+                    <h2>Proyecto Final de Arquitectura de Software</h2>
+                    <a href="https://1drv.ms/b/s!Ajc9-clX2Ag8qBlwkVo94Aj-Rq92?e=hi3Flr">Ver aquí</a>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <h2>Proyecto Final Introducción a la Ingeniería de Software</h2>
+                    <a href="https://1drv.ms/b/s!Ajc9-clX2Ag8mEXM_KuNcHmUJbQu?e=5f2V8B">Ver aquí</a>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <h2>Proyecto 1 Análisis de Algoritmos</h2>
+                    <a href="https://1drv.ms/b/s!Ajc9-clX2Ag8p2qt7mW2_UVSURaw?e=ujQ5Z4">Ver aquí</a>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <h2>Proyecto Final Capacitación Modelado 3D en Blender</h2>
+                    <a href="https://1drv.ms/f/s!Ajc9-clX2Ag8rTYn_ppPtKUKaHzj?e=0PuwXu">Ver aquí</a>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section class="sección">
+        <h2>Habilidades</h2>
+    </section>
+    <section>
+        <ul>
+            <li>Programación en Java</li>
+            <li>Modelado de objetos 3D en Blender</li>
+            <li>Creación de lecciones 3D y 360 en la plataforma EONXR</li>
+            <li>Programación en HTML y css</li>
+        </ul>
+    </section>
+    <section class="sección">
+        <h2>Experiencia</h2>
+    </section>
+    <section>
+        <ul>
+            <li>Proyectos desarrollados en la Universidad</li>
+        </ul>
+    </section>
+    <section class="sección">
+        <h2>Enlaces a proyectos en GitHub</h2>
+    </section>
+    <section>
+        <div class="container">
+            <div class="card">
+                <figure>
+                    <h2>Proyecto1</h2>
+                    <a href="https://github.com/Gaby140602/my-github-project-utp/blob/main/Home.html">Ver aquí</a>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <h2>Proyecto2</h2>
+                    <a href="https://github.com/Gaby140602/my-github-project-utp/blob/main/C.html">Ver aquí</a>
+                </figure>
+            </div>
+    </section>
+
+</body>
+
+</html>
