@@ -1,0 +1,68 @@
+body{
+    background-color: #fbd5e5;
+}
+
+header{
+    margin-bottom: -20%;
+    height: 350px;
+    overflow: hidden;
+    margin-left: -5%;
+}
+
+#titulo1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20%;
+    background-color: #c8799f;
+    border: 5%;
+}
+
+#alanis{
+    margin-left: 10%;
+}
+
+#alanistxt{
+    float: right;
+    margin-left: 20%;
+    margin-top: -15%;
+    background-color: aliceblue;
+    margin-right: 5%;
+}
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Estilo de las celdas de encabezado */
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo de las celdas regulares */
+  td {
+    background-color: #fff;
+    color: #333;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para resaltar la primera fila */
+  tr:first-child {
+    font-weight: bold;
+  }
+  
+  /* Estilo para resaltar al pasar el cursor sobre una fila */
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+
+  #valorant{
+    width: 35%;
+    height: 35%;
+  }
